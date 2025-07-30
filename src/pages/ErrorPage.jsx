@@ -1,11 +1,11 @@
-import NavBar from "../components/NavBar";
+import NavBar from '../components/NavBar';
 
 function ErrorPage() {
-    return (
-    <div>
+  return (
+    <>
       <NavBar />
       <h1>Oops! Looks like something went wrong.</h1>
-    </div>
+    </>
   );
 }
 
